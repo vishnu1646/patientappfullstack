@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddpatientComponent } from './addpatient/addpatient.component';
 import { RouterModule, Routes } from '@angular/router';
+import { ViewpatientComponent } from './viewpatient/viewpatient.component';
 
 const myRoute:Routes=[
   {
@@ -14,7 +15,8 @@ const myRoute:Routes=[
 @NgModule({
   declarations: [
     AppComponent,
-    AddpatientComponent
+    AddpatientComponent,
+    ViewpatientComponent
   ],
   imports: [
     BrowserModule,
