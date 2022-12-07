@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./addpatient.component.css']
 })
 export class AddpatientComponent {
+  patientname=""
+  phnum=""
+  docname=""
+
+  readValues=()=>{
+    let data:any={patientname:this.patientname,phnum:this.phnum,docname:this.docname}
+
+  }
 
 }
